@@ -3,13 +3,10 @@
 
 void main(int argc, char *argv[])
 {
-	char src[] = "The worst things to eat before you sleep";
-  	char dst[100];
+	char str[30] = "happy C programming";
+	
+	 printf("문자열 \"%s\"의 길이 : %i", str, strlen(str));
 
-  	strcpy(dst, src);
-
-  	printf("copied string : %s\n", dst);
-
-  system("PAUSE");	
-  return 0;
+	system("PAUSE");	
+  	return 0;
 }
